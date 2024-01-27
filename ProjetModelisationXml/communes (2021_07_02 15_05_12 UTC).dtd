@@ -1,0 +1,13 @@
+<!ELEMENT communes (commune*)>
+<!ELEMENT commune (nbelecteurs,nbsoutiens,homonymes?)>
+<!ELEMENT nbelecteurs (#PCDATA)>
+<!ELEMENT nbsoutiens (#PCDATA)>
+<!ELEMENT homonymes (homonyme+,hnbelecteurs,hnbsoutiens)>
+<!ELEMENT homonyme EMPTY>
+<!ELEMENT hnbelecteurs (#PCDATA)>
+<!ELEMENT hnbsoutiens (#PCDATA)>
+<!ATTLIST commune code ID #REQUIRED
+		  nom CDATA #REQUIRED
+		  departement CDATA #IMPLIED>
+<!ATTLIST nbsoutiens propositionloi CDATA #FIXED "ADP">
+<!ATTLIST homonyme code IDREF #REQUIRED>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE communes SYSTEM "communes.dtd">
+<communes>
+	<commune code="C21115" nom="Buncey" departement="Côte-d'or">
+	<nbelecteurs>290</nbelecteurs>
+	<nbsoutiens propositionloi="ADP">0</nbsoutiens>
+	</commune>
+	<commune code="C09056" nom="Bézac" departement="Ariège">
+	<nbelecteurs>272</nbelecteurs>
+	<nbsoutiens propositionloi="ADP">1</nbsoutiens>
+	</commune>
+	<commune code="C30244" nom="Saint-Clément">
+	<nbelecteurs>267</nbelecteurs>
+	<nbsoutiens propositionloi="ADP">3</nbsoutiens>
+	<homonymes>
+		<homonyme code="C07226"/>
+		<homonyme code="C19194"/>
+		<hnbelecteurs>4452</hnbelecteurs>
+		<hnbsoutiens>51</hnbsoutiens>
+	</homonymes>
+	</commune>
+	<commune code="C89474" nom="Villiers-Vineux" departement="Yonne">
+	<nbelecteurs>231</nbelecteurs>
+	<nbsoutiens propositionloi="ADP">2</nbsoutiens>
+	</commune>
+	<commune code="C07226" nom="Saint-Clément">
+	<nbelecteurs>1180</nbelecteurs>
+	<nbsoutiens propositionloi="ADP">22</nbsoutiens>
+	<homonymes>
+		<homonyme code="C30244"/>
+		<homonyme code="C19194"/>
+		<hnbelecteurs>4452</hnbelecteurs>
+		<hnbsoutiens>51</hnbsoutiens>
+	</homonymes>
+	</commune>
+	<commune code="C19194" nom="Saint-Clément">
+	<nbelecteurs>3005</nbelecteurs>
+	<nbsoutiens propositionloi="ADP">26</nbsoutiens>
+	<homonymes>
+		<homonyme code="C30244"/>
+		<homonyme code="C07226"/>
+		<hnbelecteurs>4452</hnbelecteurs>
+		<hnbsoutiens>51</hnbsoutiens>
+	</homonymes>
+	</commune>
+	
+</communes>
