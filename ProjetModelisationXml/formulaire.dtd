@@ -1,0 +1,17 @@
+<!ELEMENT formulaires (formulaire*)>
+<!ELEMENT formulaire (localisation,departement,commune,nom,prenom,sexe,dateNaissance,paysNaissance,departementNaissance,communeNaissance)>
+<!ELEMENT localisation EMPTY>
+<!ELEMENT departement (#PCDATA)>
+<!ELEMENT commune (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT prenom (#PCDATA) >
+<!ELEMENT sexe EMPTY>
+<!ELEMENT dateNaissance EMPTY>
+<!ELEMENT paysNaissance (#PCDATA)>
+<!ELEMENT departementNaissance (#PCDATA)>
+<!ELEMENT communeNaissance (#PCDATA)>
+<!ATTLIST dateNaissance jour CDATA #REQUIRED 
+						mois CDATA #REQUIRED 
+						annee CDATA #REQUIRED >
+<!ATTLIST localisation type (france|etranger) #REQUIRED>
+<!ATTLIST sexe type (Feminin|Masculin) #REQUIRED>

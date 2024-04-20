@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE formulaires SYSTEM "formulaire.dtd">
+<formulaires>
+	<formulaire>
+		<localisation type="france"/>
+		<departement>21</departement>
+		<commune>Dijon</commune>
+		<nom>Dupont</nom>
+		<prenom>Jean</prenom>
+		<sexe type="Masculin" />
+		<dateNaissance jour="12" mois="8" annee="1970"/>
+		<paysNaissance>France</paysNaissance>
+		<departementNaissance>21</departementNaissance>
+		<communeNaissance>Beaune</communeNaissance>
+	</formulaire>
+	<formulaire>
+		<localisation type="france"/>
+		<departement>40</departement>
+		<commune>Dax</commune>
+		<nom>Dupont</nom>
+		<prenom>Marie</prenom>
+		<sexe type="Feminin" />
+		<dateNaissance jour="12" mois="6" annee="1976"/>
+		<paysNaissance>France</paysNaissance>
+		<departementNaissance>64</departementNaissance>
+		<communeNaissance>Bayonne</communeNaissance>
+	</formulaire>
+</formulaires>
